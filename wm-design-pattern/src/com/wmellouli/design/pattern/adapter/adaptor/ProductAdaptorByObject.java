@@ -1,16 +1,16 @@
 package com.wmellouli.design.pattern.adapter.adaptor;
 
-import com.wmellouli.design.pattern.adapter.adaptee.IFoodProduct;
-import com.wmellouli.design.pattern.adapter.adaptee.IHighTechProduct;
+import com.wmellouli.design.pattern.adapter.adaptee.FoodProduct;
+import com.wmellouli.design.pattern.adapter.adaptee.HighTechProduct;
 
 public class ProductAdaptorByObject implements IProductAdaptor {
 
 	//Adaptees
-	private IFoodProduct foodProduct;
-	private IHighTechProduct highTechProduct;
+	private FoodProduct foodProduct;
+	private HighTechProduct highTechProduct;
 
 	//Inject adaptees
-	public ProductAdaptorByObject(IFoodProduct foodProduct, IHighTechProduct highTechProduct) {
+	public ProductAdaptorByObject(FoodProduct foodProduct, HighTechProduct highTechProduct) {
 		this.foodProduct = foodProduct;
 		this.highTechProduct = highTechProduct;
 	}
