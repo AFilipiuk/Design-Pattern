@@ -9,6 +9,8 @@ import com.wmellouli.designpatterns.structural.facade.CalendarFacade;
  * FR: Le patron façade a pour but de cacher une conception et une interface complexe difficile à comprendre (cette complexité étant apparue "naturellement"
  * avec l'évolution du sous-système en question)
  * 
+ * [source wikipedia]
+ * 
  * @author Walid Mellouli
  * 
  */

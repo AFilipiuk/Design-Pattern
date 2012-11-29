@@ -12,7 +12,7 @@ public class Consumer {
 		this.preference = preference;
 	}
 
-	// Factory method
+	// Factory
 	public IProduct productFactory() {
 		IProduct product = null;
 

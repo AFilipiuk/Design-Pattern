@@ -7,7 +7,7 @@ import com.wmellouli.designpatterns.structural.adapter.adaptor.ProductAdaptorByO
 import com.wmellouli.designpatterns.structural.adapter.client.Client;
 
 /**
- * Adapter pattern: translates one interface for a class into a compatible interface
+ * Adapter pattern (Wrapper pattern): translates one interface for a class into a compatible interface
  * 
  * FR: Le patron Adaptateur permet de convertir l'interface d'une classe en une autre interface que le client attend. L'Adaptateur fait fonctionner un ensemble
  * des classes qui n'auraient pas pu fonctionner sans lui, à cause d'une incompatibilité d'interfaces.
