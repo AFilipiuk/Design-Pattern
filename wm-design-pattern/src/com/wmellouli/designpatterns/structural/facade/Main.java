@@ -1,6 +1,5 @@
-package com.wmellouli.designpatterns.structural.facade.main;
+package com.wmellouli.designpatterns.structural.facade;
 
-import com.wmellouli.designpatterns.structural.facade.CalendarFacade;
 
 /**
  * A facade is an object that provides a simplified interface to a larger body of code, such as a class library. It Provides a unified interface to a set of

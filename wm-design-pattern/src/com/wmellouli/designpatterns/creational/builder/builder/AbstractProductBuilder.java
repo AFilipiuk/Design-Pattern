@@ -1,4 +1,4 @@
-package com.wmellouli.designpatterns.creational.builder;
+package com.wmellouli.designpatterns.creational.builder.builder;
 
 import com.wmellouli.designpatterns.creational.builder.product.Product;
 

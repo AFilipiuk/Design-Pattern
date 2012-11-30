@@ -1,8 +1,8 @@
 package com.wmellouli.designpatterns.creational.builder.main;
 
-import com.wmellouli.designpatterns.creational.builder.AbstractProductBuilder;
-import com.wmellouli.designpatterns.creational.builder.FoodProductBuilder;
-import com.wmellouli.designpatterns.creational.builder.HighTechProductBuilder;
+import com.wmellouli.designpatterns.creational.builder.builder.AbstractProductBuilder;
+import com.wmellouli.designpatterns.creational.builder.builder.FoodProductBuilder;
+import com.wmellouli.designpatterns.creational.builder.builder.HighTechProductBuilder;
 import com.wmellouli.designpatterns.creational.builder.director.Director;
 import com.wmellouli.designpatterns.creational.builder.product.Product;
 

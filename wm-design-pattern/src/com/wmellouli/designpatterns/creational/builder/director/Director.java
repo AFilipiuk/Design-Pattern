@@ -1,6 +1,6 @@
 package com.wmellouli.designpatterns.creational.builder.director;
 
-import com.wmellouli.designpatterns.creational.builder.AbstractProductBuilder;
+import com.wmellouli.designpatterns.creational.builder.builder.AbstractProductBuilder;
 import com.wmellouli.designpatterns.creational.builder.product.Product;
 
 public class Director {
